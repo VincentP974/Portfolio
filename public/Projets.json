@@ -1,0 +1,18 @@
+{
+    "projects": [
+        {
+            "title": "Nom du projet 1",
+            "image": "/path/to/image1.jpg",
+            "link": "https://exemple.com/projet1",
+            "description": "Description détaillée du projet, incluant les technologies utilisées et les fonctionnalités principales.",
+            "date": "2023-06-15"
+        },
+        {
+            "title": "Nom du projet 2",
+            "image": "/path/to/image2.jpg",
+            "link": "https://exemple.com/projet2",
+            "description": "Une autre description, plus concise, de ce projet.",
+            "date": "2024-01-20"
+        }
+    ]
+}

@@ -1,0 +1,146 @@
+/* Importation des polices Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Open+Sans:wght@400&display=swap');
+
+/* Application des polices */
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #181818;
+  color: #FFFFFF;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Style de la navbar */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #333333;
+  padding: 1rem;
+  flex-wrap: wrap;
+  font-size: 15px;
+}
+
+.navbar_logo {
+  margin-right: auto;
+}
+
+img {
+  width: 17rem;
+}
+
+/* Style du bouton hamburger */
+.menu-toggle {
+  background: none;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 30px;
+  height: 25px;
+  cursor: pointer;
+  display: none;
+  /* Cacher le bouton hamburger sur grands écrans */
+}
+
+.menu-toggle .bar {
+  width: 25px;
+  height: 3px;
+  background-color: #FFA500;
+  /* Couleur des barres du hamburger */
+  border-radius: 5px;
+}
+
+/* Liste des éléments de la navbar */
+ul {
+  display: flex;
+  list-style-type: none;
+  gap: 3rem;
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  font-weight: bold;
+}
+
+ul li a {
+  color: #FFA500;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Menu collapsé - caché par défaut sur mobile */
+.navbar-links {
+  display: flex;
+  list-style-type: none;
+  gap: 3rem;
+}
+
+.navbar-links.active {
+  display: block;
+  position: absolute;
+  top: 70px;
+  left: 0;
+  width: 100%;
+  background-color: #333333;
+  text-align: center;
+}
+
+.navbar-links li {
+  margin: 1rem 0;
+}
+
+@media screen and (max-width:1072px) {
+  .navbar {
+    flex-direction: column;
+  }
+
+  .navbar_logo {
+    justify-content: center;
+    margin: 0;
+  }
+
+  .navbar-links {
+    justify-content: center;
+  }
+
+  img {
+    width: 20rem;
+  }
+}
+
+/* Menu mobile : cacher les liens et afficher le bouton hamburger */
+@media screen and (max-width: 768px) {
+  .menu-toggle {
+    display: flex;
+    /* Afficher le bouton hamburger sur mobile */
+  }
+
+  .navbar-links {
+    display: none;
+    /* Cacher la liste des liens par défaut sur mobile */
+    width: 100%;
+  }
+
+  .navbar-links.active {
+    display: block;
+    /* Afficher la liste des liens quand le menu est ouvert */
+  }
+
+  /* Optionnel : Style pour les liens du menu sur mobile */
+  .navbar-links li {
+    font-size: 18px;
+  }
+
+  img {
+    width: 14rem;
+  }
+}
