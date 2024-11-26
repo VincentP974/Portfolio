@@ -1,0 +1,64 @@
+/* Footer principal */
+.footer {
+    background-color: #333333;
+    color: #ffffff;
+    padding: 2rem 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+/* Conteneur principal */
+.footer-container {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+/* Logo */
+.footer-logo img {
+    width: 100px;
+    height: auto;
+}
+
+/* Section de contact */
+.contact-section {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+/* Bouton email */
+.email-button {
+    background-color: #ffa500;
+    /* Couleur dorée/orange */
+    color: white;
+    padding: 0.5rem 2rem;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+.email-button:hover {
+    background-color: #e67e22;
+    /* Couleur orange foncé au survol */
+}
+
+/* Liens sociaux */
+.social-links {
+    display: flex;
+    gap: 1rem;
+}
+
+.social-icon img {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s ease;
+}
+
+.social-icon:hover img {
+    transform: scale(1.1);
+}

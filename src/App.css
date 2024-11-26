@@ -1,11 +1,15 @@
-/* Importation des polices Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Open+Sans:wght@400&display=swap');
+
+* {
+  padding-inline: 1em;
+}
 
 /* Application des polices */
 body {
   font-family: 'Open Sans', sans-serif;
   background-color: #181818;
   color: #FFFFFF;
+  margin: 0;
 }
 
 h1 {
@@ -22,6 +26,7 @@ h1 {
   padding: 1rem;
   flex-wrap: wrap;
   font-size: 15px;
+  width: 100%;
 }
 
 .navbar_logo {
@@ -81,7 +86,7 @@ ul li a:hover {
 .navbar-links {
   display: flex;
   list-style-type: none;
-  gap: 3rem;
+  gap: 1rem;
 }
 
 .navbar-links.active {
@@ -95,7 +100,7 @@ ul li a:hover {
 }
 
 .navbar-links li {
-  margin: 1rem 0;
+  margin: 1rem -1.5rem;
 }
 
 @media screen and (max-width:1072px) {
@@ -119,6 +124,11 @@ ul li a:hover {
 
 /* Menu mobile : cacher les liens et afficher le bouton hamburger */
 @media screen and (max-width: 768px) {
+
+  * {
+    padding: 0;
+  }
+
   .menu-toggle {
     display: flex;
     /* Afficher le bouton hamburger sur mobile */
