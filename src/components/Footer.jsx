@@ -22,10 +22,10 @@ function Footer() {
 
           <div className="social-links">
             <a href="https://github.com/tonutilisateur" target="_blank" rel="noopener noreferrer" className="social-icon">
-              <img src="src/assets/icons/github-icon.png" alt="GitHub" />
+              <img src="src/assets/images/github-mark.png" alt="GitHub" />
             </a>
             <a href="https://www.linkedin.com/in/tonutilisateur" target="_blank" rel="noopener noreferrer" className="social-icon">
-              <img src="src/assets/icons/linkedin-icon.png" alt="LinkedIn" />
+              <img src="src/assets/images/LI-In-Bug.png" alt="LinkedIn" />
             </a>
           </div>
         </div>
