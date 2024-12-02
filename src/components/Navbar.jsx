@@ -5,6 +5,7 @@ function Navbar() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);  // État pour gérer l'ouverture du menu
     const menuRef = useRef(null);  // Référence pour la navbar
     const toggleButtonRef = useRef(null);  // Référence pour le bouton hamburger
+    const navbarRef = useRef(null); // Référence pour la barre de navigation
 
     // Ferme le menu si l'utilisateur clique à l'extérieur de la navbar
     useEffect(() => {
@@ -14,12 +15,32 @@ function Navbar() {
             }
         };
 
-        // Ajoute l'écouteur d'événements au document
         document.addEventListener('mousedown', handleClickOutside);
 
-        // Nettoyage de l'écouteur d'événements lorsque le composant est démonté
         return () => {
             document.removeEventListener('mousedown', handleClickOutside);
+        };
+    }, []);
+
+    // Ajouter un écouteur de défilement pour ajouter la classe sticky à la navbar
+    useEffect(() => {
+        const handleScroll = () => {
+            if (navbarRef.current) {
+                if (window.scrollY > 50) { // Dès que la page est défilée de 50px, ajoute la classe sticky
+                    navbarRef.current.classList.add('sticky');
+                    console.log('Sticky added'); // Vérification dans la console
+                } else {
+                    navbarRef.current.classList.remove('sticky');
+                    console.log('Sticky removed'); // Vérification dans la console
+                }
+            }
+        };
+
+        window.addEventListener('scroll', handleScroll);
+
+        // Nettoyage de l'écouteur d'événements au démontage
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
         };
     }, []);
 
@@ -28,7 +49,7 @@ function Navbar() {
     };
 
     return (
-        <nav className="navbar">
+        <nav ref={navbarRef} className="navbar">
             <div className="navbar_logo">
                 <img src="src/assets/images/VLogo2.webp" alt="Logo" />
             </div>
@@ -44,7 +65,6 @@ function Navbar() {
             <ul ref={menuRef} className={`navbar-links ${isMenuOpen ? 'active' : ''}`}>
                 <li><a href="#presentation">Présentation</a></li>
                 <li><a href="#realisation">Réalisation</a></li>
-                <li><a href="#activites">Activités</a></li>
                 <li><a href="#competences">Compétences</a></li>
                 <li><a href="#contact">Contact</a></li>
                 <li><a href="#cv">Mon CV</a></li>

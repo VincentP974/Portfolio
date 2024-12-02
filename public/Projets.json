@@ -1,18 +1,39 @@
 {
     "projects": [
         {
-            "title": "Nom du projet 1",
-            "image": "/path/to/image1.jpg",
-            "link": "https://exemple.com/projet1",
-            "description": "Description détaillée du projet, incluant les technologies utilisées et les fonctionnalités principales.",
-            "date": "2023-06-15"
+            "title": "Booki",
+            "image": "src/assets/images/img-projets/Booki.webp",
+            "link": "https://vincentp974.github.io/booki/",
+            "description": "Intégrer l'interface du site d'une agence de voyage avec HTML & CSS et qu'elle soit responsive.",
+            "date": "2024-05"
         },
         {
-            "title": "Nom du projet 2",
-            "image": "/path/to/image2.jpg",
-            "link": "https://exemple.com/projet2",
-            "description": "Une autre description, plus concise, de ce projet.",
-            "date": "2024-01-20"
+            "title": "Sophie Bluel",
+            "image": "src/assets/images/img-projets/Sophie-Bluel.webp",
+            "link": "https://github.com/VincentP974/Creez-une-page-web-dynamique-avec-JavaScript",
+            "description": "Créez une page web dynamique avec JavaScript, pour une architecte d'intérieur et ainsi présenter ses travaux.",
+            "date": "2024-07"
+        },
+        {
+            "title": "Nina-Carducci",
+            "image": "src/assets/images/img-projets/Nina-Carducci.webp",
+            "link": "https://vincentp974.github.io/projet4/",
+            "description": "Optimiser un site HTML,CSS,Javascript d'une photographe, pour améliorer les performances du site ainsi que sa visibilité.",
+            "date": "2024-08"
+        },
+        {
+            "title": "Kasa",
+            "image": "src/assets/images/img-projets/Kasa.webp",
+            "link": "https://github.com/VincentP974/Kasa",
+            "description": "Créez l'ensemble d'une application web, les composants React, les routes React Router, pour une entreprise de location d'appartements.",
+            "date": "2024-09"
+        },
+        {
+            "title": "Mon-vieux-grimoire",
+            "image": "",
+            "link": "https://github.com/VincentP974/P6-Grimoire-Back-end",
+            "description": "Créer un serveur avec Express et le connecter à une base de données MongoDB. Cela implique la mise en place de la structure du serveur et la gestion de la communication entre le serveur et la base de données.",
+            "date": "2024-10"
         }
     ]
 }

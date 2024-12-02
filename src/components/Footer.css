@@ -6,7 +6,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
     margin-top: 2rem;
 }
 
@@ -19,7 +18,7 @@
 
 /* Logo */
 .footer-logo img {
-    width: 10rem;
+    width: 8rem;
 }
 
 /* Section de contact */
@@ -34,7 +33,7 @@
     background-color: #ffa500;
     /* Couleur dorée/orange */
     color: white;
-    padding: 0.5rem 2rem;
+    padding: 0.5rem 1rem;
     border: none;
     font-size: 1rem;
     cursor: pointer;
@@ -70,9 +69,13 @@
         width: 100%;
     }
 
+    .footer-logo img {
+        width: 7rem;
+    }
+
     .email-button {
         justify-content: center;
-        width: 120%;
+        width: 80%;
         margin-top: 1rem;
 
     }
