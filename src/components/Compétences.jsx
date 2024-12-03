@@ -7,11 +7,11 @@ function Compétences() {
             <div className='front-end'>
                 <h2>Front-end</h2>
                 <div className="front-img">
-                    <img src='src\assets\images\html-5.webp' alt='' />
-                    <img src='src\assets\images\css.webp' alt='' />
-                    <img src='src\assets\images\js.webp' alt='' />
-                    <img src='src\assets\images\React.webp' alt='' />
-                    <img src='src\assets\images\sass.webp' alt='' />
+                    <img src='../assets/images/html-5.webp' alt='' />
+                    <img src='../assets/images/css.webp' alt='' />
+                    <img src='../assets/images/js.webp' alt='' />
+                    <img src='../assets/images/React.webp' alt='' />
+                    <img src='../assets/images/sass.webp' alt='' />
                 </div>
 
             </div>
