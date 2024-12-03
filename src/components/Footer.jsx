@@ -21,7 +21,7 @@ function Footer() {
           </button>
 
           <div className="social-links">
-            <a href="https://github.com/tonutilisateur" target="_blank" rel="noopener noreferrer" className="social-icon">
+            <a href="https://github.com/VincentP974" target="_blank" rel="noopener noreferrer" className="social-icon">
               <img src="src/assets/images/github-mark.webp" alt="GitHub" />
             </a>
             <a href="https://www.linkedin.com/in/tonutilisateur" target="_blank" rel="noopener noreferrer" className="social-icon">
