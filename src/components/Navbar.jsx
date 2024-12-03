@@ -51,7 +51,7 @@ function Navbar() {
     return (
         <nav ref={navbarRef} className="navbar">
             <div className="navbar_logo">
-                <img src="src/assets/images/VLogo2.webp" alt="Logo" />
+                <img src="/Portfolio/images/VLogo2.webp" alt="Logo" />
             </div>
 
             {/* Bouton hamburger pour mobiles */}

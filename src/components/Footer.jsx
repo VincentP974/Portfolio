@@ -11,7 +11,7 @@ function Footer() {
       <div className="footer-container">
         {/* Logo */}
         <div className="footer-logo">
-          <img src="src/assets/images/VLogo2.webp" alt="Logo" />
+          <img src="/Portfolio/images/VLogo2.webp" alt="Logo" />
         </div>
 
         {/* Section de Contact */}
@@ -22,10 +22,10 @@ function Footer() {
 
           <div className="social-links">
             <a href="https://github.com/VincentP974" target="_blank" rel="noopener noreferrer" className="social-icon">
-              <img src="src/assets/images/github-mark.webp" alt="GitHub" />
+              <img src="/Portfolio/images/github-mark.webp" alt="GitHub" />
             </a>
             <a href="https://www.linkedin.com/in/tonutilisateur" target="_blank" rel="noopener noreferrer" className="social-icon">
-              <img src="src/assets/images/LI-In-Bug.webp" alt="LinkedIn" />
+              <img src="/Portfolio/images/LI-In-Bug.webp" alt="LinkedIn" />
             </a>
           </div>
         </div>

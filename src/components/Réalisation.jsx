@@ -7,7 +7,7 @@ function Réalisation() {
 
     useEffect(() => {
         // Charger le fichier JSON depuis le dossier public
-        fetch('/Projets.json') // Chemin relatif à la racine
+        fetch('/Portfolio/Projets.json')// Chemin relatif à la racine
             .then((response) => {
                 if (!response.ok) {
                     throw new Error(`HTTP error! status: ${response.status}`);
