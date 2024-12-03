@@ -1,13 +1,13 @@
-import React, {} from 'react';
+import React, { } from 'react';
 import './Présentation.css'
 
 function Présentation() {
 
     return (
-        <section id="Présentation" className="description">
+        <section id="presentation" className="description">
             <div className='img-v'>
                 <h1>Qui suis-je?</h1>
-                <img src="src/assets/images/photoV.jpg" alt="Portrait de Payet Vincent" />
+                <img src="src/assets/images/photoV.webp" alt="Portrait de Payet Vincent" />
             </div>
 
             <div className="description-contenu">

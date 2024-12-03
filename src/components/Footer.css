@@ -13,19 +13,19 @@
 .footer-container {
     display: flex;
     align-items: center;
-    gap: 1rem;
+    gap: 10rem;
 }
 
 /* Logo */
 .footer-logo img {
-    width: 8rem;
+    width: 12rem;
 }
 
 /* Section de contact */
 .contact-section {
     display: flex;
     align-items: center;
-    gap: 1rem;
+    gap: 10rem;
 }
 
 /* Bouton email */
@@ -49,13 +49,13 @@
 /* Liens sociaux */
 .social-links {
     display: flex;
-    gap: 1rem;
+    gap: 2rem;
 }
 
 
 .social-icon img {
-    width: 30px;
-    height: 30px;
+    width: 2rem;
+    height: 2rem;
     transition: transform 0.3s ease;
 }
 

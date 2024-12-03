@@ -1,0 +1,47 @@
+.technologies {
+    display: flex;
+    align-items: center;
+    background-color: #333333;
+    margin-top: 2rem;
+    padding-block: 1rem;
+    justify-content: space-between;
+    /* Assure un espacement équilibré entre les deux conteneurs */
+}
+
+.front-end,
+.back-end {
+    flex: 1;
+    /* Chaque conteneur occupe 1 part égale de l'espace */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* Facultatif, si vous avez du texte dans les conteneurs */
+}
+
+.front-end img,
+.back-end img {
+    max-width: 12%;
+    /* Limite la taille des images à l'intérieur des conteneurs */
+    height: auto;
+    /* Maintient les proportions des images */
+}
+
+/* Pour les petits écrans */
+@media screen and (max-width: 768px) {
+    .technologies {
+        flex-direction: column;
+        /* Passe en colonne sur les petits écrans */
+    }
+
+    .front-end,
+    .back-end {
+        flex: none;
+        /* Supprime la flexibilité pour l'espace */
+        width: 100%;
+        /* Chaque conteneur occupe toute la largeur */
+        margin-bottom: 1rem;
+        /* Ajoute un espacement entre les sections */
+    }
+}
