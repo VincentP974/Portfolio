@@ -8,6 +8,11 @@
     /* Assure un espacement équilibré entre les deux conteneurs */
 }
 
+.technologies img {
+    width: 50px;
+    height: 50px;
+}
+
 .front-end,
 .back-end {
     flex: 1;
@@ -20,13 +25,21 @@
     /* Facultatif, si vous avez du texte dans les conteneurs */
 }
 
-.front-end img,
-.back-end img {
-    max-width: 12%;
-    /* Limite la taille des images à l'intérieur des conteneurs */
-    height: auto;
-    /* Maintient les proportions des images */
+@keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
 }
+
+.react-logo {
+    animation: rotation 5s linear infinite;
+    /* Rotation en boucle */
+}
+
 
 /* Pour les petits écrans */
 @media screen and (max-width: 768px) {

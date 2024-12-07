@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import '../App.css';  // Assurez-vous que le CSS est importé
+import './Navbar.css';  // Assurez-vous que le CSS est importé
 
 function Navbar() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);  // État pour gérer l'ouverture du menu
@@ -21,6 +21,21 @@ function Navbar() {
             document.removeEventListener('mousedown', handleClickOutside);
         };
     }, []);
+
+    // Ferme le menu sur les écrans supérieurs à 768px
+    useEffect(() => {
+        const handleResize = () => {
+            if (window.innerWidth > 768 && isMenuOpen) {
+                setIsMenuOpen(false); // Ferme le menu
+            }
+        };
+
+        window.addEventListener('resize', handleResize);
+
+        return () => {
+            window.removeEventListener('resize', handleResize);
+        };
+    }, [isMenuOpen]);
 
     // Ajouter un écouteur de défilement pour ajouter la classe sticky à la navbar
     useEffect(() => {
