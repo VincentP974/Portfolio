@@ -10,7 +10,8 @@
 
 .description img {
     border-radius: 3rem;
-    width: 50%;
+    width: 65%;
+    height: auto;
     margin-bottom: 1rem;
 }
 

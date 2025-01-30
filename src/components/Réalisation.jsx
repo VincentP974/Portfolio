@@ -7,7 +7,7 @@ function Réalisation() {
 
     useEffect(() => {
         // Charger le fichier JSON depuis le dossier public
-        fetch('/Portfolio/Projets.json')// Chemin relatif à la racine
+        fetch('/Portfolio/Projets.json')
             .then((response) => {
                 if (!response.ok) {
                     throw new Error(`HTTP error! status: ${response.status}`);
@@ -42,6 +42,8 @@ function Réalisation() {
                         <img
                             src={project.image}
                             alt={`Aperçu du projet ${project.title}`}
+                            width={project.width}
+                            height={project.height}
                         />
                         <div className='subtitle'>
                             <h2>{project.title}</h2>
@@ -58,6 +60,8 @@ function Réalisation() {
                         <img
                             src={selectedProject.image}
                             alt={`Détails du projet ${selectedProject.title}`}
+                            width={selectedProject.width}
+                            height={selectedProject.height}
                         />
                         <p>{selectedProject.description}</p>
                         <p><strong>Date:</strong> {selectedProject.date}</p>

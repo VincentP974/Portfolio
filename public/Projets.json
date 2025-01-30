@@ -6,7 +6,9 @@
             "link": "https://vincentp974.github.io/booki/",
             "technologies": "",
             "description": "Intégrer l'interface du site d'une agence de voyage avec HTML & CSS et qu'elle soit responsive.",
-            "date": "2024-05"
+            "date": "2024-05",
+            "width": 600,
+            "height": 400
         },
         {
             "title": "Sophie Bluel",
@@ -14,7 +16,9 @@
             "link": "https://github.com/VincentP974/Creez-une-page-web-dynamique-avec-JavaScript",
             "technologies": "",
             "description": "Créez une page web dynamique avec JavaScript, pour une architecte d'intérieur et ainsi présenter ses travaux.",
-            "date": "2024-07"
+            "date": "2024-07",
+            "width": 600,
+            "height": 400
         },
         {
             "title": "Nina-Carducci",
@@ -22,7 +26,9 @@
             "link": "https://vincentp974.github.io/projet4/",
             "technologies": "",
             "description": "Optimiser un site HTML,CSS,Javascript d'une photographe, pour améliorer les performances du site ainsi que sa visibilité.",
-            "date": "2024-08"
+            "date": "2024-08",
+            "width": 600,
+            "height": 400
         },
         {
             "title": "Kasa",
@@ -30,7 +36,9 @@
             "link": "https://github.com/VincentP974/Kasa",
             "technologies": "",
             "description": "Créez l'ensemble d'une application web, les composants React, les routes React Router, pour une entreprise de location d'appartements.",
-            "date": "2024-09"
+            "date": "2024-09",
+            "width": 600,
+            "height": 400
         },
         {
             "title": "Mon-vieux-grimoire",
@@ -38,7 +46,9 @@
             "link": "https://github.com/VincentP974/P6-Grimoire-Back-end",
             "technologies": "",
             "description": "Créer un serveur avec Express et le connecter à une base de données MongoDB. Cela implique la mise en place de la structure du serveur et la gestion de la communication entre le serveur et la base de données.",
-            "date": "2024-10"
+            "date": "2024-10",
+            "width": 600,
+            "height": 400
         }
     ]
 }

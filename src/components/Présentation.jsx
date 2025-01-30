@@ -10,6 +10,8 @@ function Présentation() {
                 <img
                     src="/Portfolio/images/photoV.webp"
                     alt="Portrait de Vincent Payet, développeur web full-stack"
+                    width="300"
+                    height="400"
                     loading="lazy"
                 />
             </div>
