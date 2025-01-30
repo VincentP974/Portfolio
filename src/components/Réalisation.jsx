@@ -42,7 +42,6 @@ function Réalisation() {
                         <img
                             src={project.image}
                             alt={`Aperçu du projet ${project.title}`}
-                            loading="lazy"
                         />
                         <div className='subtitle'>
                             <h2>{project.title}</h2>
