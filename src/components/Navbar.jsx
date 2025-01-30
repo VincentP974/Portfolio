@@ -82,7 +82,7 @@ function Navbar() {
                 <li><a href="#realisation">Réalisation</a></li>
                 <li><a href="#competences">Compétences</a></li>
                 <li><a href="#contact">Contact</a></li>
-                <li><a href="#cv">Mon CV</a></li>
+                <li><a href="https://drive.google.com/file/d/1oxPzYnn5lypsFu8vip7knzuZDEpCp4b1/view?usp=sharing" target="_blank" rel="noopener noreferrer">Mon CV</a></li>
             </ul>
         </nav>
     );

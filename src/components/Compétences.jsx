@@ -1,12 +1,12 @@
 import React from 'react'
 import './Compétences.css';
-import cssLogo from '/Portfolio/images/logo/css3.svg';
-import htmlLogo from '/Portfolio/images/logo/html5.svg';
-import jsLogo from '/Portfolio/images/logo/js.svg';
-import reactLogo from '/Portfolio/images/logo/react.svg';
-import saasLogo from '/Portfolio/images/logo/sass.svg';
-import nodejsLogo from '/Portfolio/images/logo/nodejs.svg';
-import mongodbLogo from '/Portfolio/images/logo/mongodb.svg';
+import cssLogo from '/images/logo/css3.svg';
+import htmlLogo from '/images/logo/html5.svg';
+import jsLogo from '/images/logo/js.svg';
+import reactLogo from '/images/logo/react.svg';
+import saasLogo from '/images/logo/sass.svg';
+import nodejsLogo from '/images/logo/nodejs.svg';
+import mongodbLogo from '/images/logo/mongodb.svg';
 
 
 function Compétences() {

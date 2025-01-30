@@ -70,7 +70,7 @@
     }
 
     .footer-logo img {
-        width: 7rem;
+        width: 11rem;
     }
 
     .email-button {
@@ -88,7 +88,4 @@
         padding-top: 2rem;
     }
 
-    .footer-logo img {
-        width: 15rem;
-    }
 }

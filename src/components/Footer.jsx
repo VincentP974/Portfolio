@@ -1,11 +1,11 @@
 import React from 'react';
 import './Footer.css'; // Assure-toi de lier ton fichier CSS
-import githubLogo from '/Portfolio/images/logo/github.svg';
-import linkedinLogo from '/Portfolio/images/logo/linkedin.svg';
+import githubLogo from '/images/logo/github.svg';
+import linkedinLogo from '/images/logo/linkedin.svg';
 
 function Footer() {
   const handleEmailClick = () => {
-    window.location.href = 'mailto:ton.email@example.com'; // Remplace par ton email
+    window.location.href = 'mailto:vincentp9@outlook.fr'; // Remplace par ton email
   };
 
   return (
@@ -26,7 +26,7 @@ function Footer() {
             <a href="https://github.com/VincentP974" target="_blank" rel="noopener noreferrer" className="social-icon">
               <img src={githubLogo} alt="GitHub" />
             </a>
-            <a href="https://www.linkedin.com/in/tonutilisateur" target="_blank" rel="noopener noreferrer" className="social-icon">
+            <a href="https://www.linkedin.com/in/vincent-payet-66882b340/" target="_blank" rel="noopener noreferrer" className="social-icon">
               <img src={linkedinLogo} alt="LinkedIn" />
             </a>
           </div>
