@@ -13,7 +13,9 @@ function Footer() {
       <div className="footer-container">
         {/* Logo */}
         <div className="footer-logo">
-          <img src="/Portfolio/images/VLogo2.webp" alt="Logo" />
+          <img src="/Portfolio/images/VLogo2.webp" alt="Logo"
+            width="100"
+            height="50" />
         </div>
 
         {/* Section de Contact */}

@@ -18,7 +18,7 @@
 
 /* Logo */
 .footer-logo img {
-    width: 12rem;
+    width: 15rem;
 }
 
 /* Section de contact */
@@ -70,7 +70,7 @@
     }
 
     .footer-logo img {
-        width: 11rem;
+        width: 14rem;
     }
 
     .email-button {
@@ -86,6 +86,13 @@
 
     .social-links {
         padding-top: 2rem;
+    }
+
+}
+
+@media screen and (max-width: 310px) {
+    .footer-logo img {
+        width: 10rem;
     }
 
 }
