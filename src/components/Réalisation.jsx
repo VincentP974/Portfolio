@@ -29,30 +29,45 @@ function Réalisation() {
     };
 
     return (
-        <section id='realisation' className='réalisation-grid'>
+        <section id='realisation' className='réalisation-grid' aria-label="Mes travaux">
             <h1>Mes Travaux</h1>
             <div className="projets-container">
                 {projects.map((project, index) => (
-                    <div
+                    <article
                         key={index}
                         className="projet"
                         onClick={() => openModal(project)}
+                        aria-label={`Projet : ${project.title}`}
                     >
-                        <img src={project.image} alt={project.title} />
-                        <div className='subtitle'><h2>{project.title}</h2></div>
-                    </div>
+                        <img
+                            src={project.image}
+                            alt={`Aperçu du projet ${project.title}`}
+                            loading="lazy"
+                        />
+                        <div className='subtitle'>
+                            <h2>{project.title}</h2>
+                        </div>
+                    </article>
                 ))}
             </div>
 
             {selectedProject && (
-                <div className="modal">
+                <div className="modal" role="dialog" aria-labelledby="modal-title">
                     <div className="modal-content">
-                        <span className="close" onClick={closeModal}>&times;</span>
-                        <h2>{selectedProject.title}</h2>
-                        <img src={selectedProject.image} alt={selectedProject.title} />
+                        <span className="close" onClick={closeModal} aria-label="Fermer la modal">&times;</span>
+                        <h2 id="modal-title">{selectedProject.title}</h2>
+                        <img
+                            src={selectedProject.image}
+                            alt={`Détails du projet ${selectedProject.title}`}
+                        />
                         <p>{selectedProject.description}</p>
                         <p><strong>Date:</strong> {selectedProject.date}</p>
-                        <a href={selectedProject.link} target="_blank" rel="noopener noreferrer">
+                        <a
+                            href={selectedProject.link}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            title={`Voir le projet ${selectedProject.title}`}
+                        >
                             Voir le projet
                         </a>
                     </div>
