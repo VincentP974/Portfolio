@@ -5,12 +5,13 @@
     margin-top: 2rem;
     padding-block: 1rem;
     justify-content: space-between;
-    min-height: 50px;
 }
 
 .technologies img {
     width: 50px;
     height: 50px;
+    min-height: 50px;
+    min-width: 50px;
 }
 
 .front-end,

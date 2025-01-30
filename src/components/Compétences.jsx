@@ -15,19 +15,19 @@ function Compétences() {
             <div className='front-end'>
                 <h2>Front-end</h2>
                 <div className="front-img">
-                    <img src={htmlLogo} alt='icone html' />
-                    <img src={cssLogo} alt='icone css' />
-                    <img src={jsLogo} alt='icone javascript' />
-                    <img className="react-logo" src={reactLogo} alt='icone react' />
-                    <img src={saasLogo} alt='icone saas' />
+                    <img src={htmlLogo} alt='icone html' width="50" height="50" />
+                    <img src={cssLogo} alt='icone css' width="50" height="50" />
+                    <img src={jsLogo} alt='icone javascript' width="50" height="50" />
+                    <img className="react-logo" src={reactLogo} alt='icone react' width="50" height="50" />
+                    <img src={saasLogo} alt='icone saas' width="50" height="50" />
                 </div>
 
             </div>
             <div className='back-end'>
                 <h2>Back-end</h2>
                 <div className="back-img">
-                    <img src={nodejsLogo} alt='icone nodejs' />
-                    <img src={mongodbLogo} alt='icone mongodb' />
+                    <img src={nodejsLogo} alt='icone nodejs' width="50" height="50" />
+                    <img src={mongodbLogo} alt='icone mongodb' width="50" height="50" />
                 </div>
 
             </div>
