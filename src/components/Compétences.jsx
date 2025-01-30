@@ -15,19 +15,19 @@ function Compétences() {
             <div className='front-end'>
                 <h2>Front-end</h2>
                 <div className="front-img">
-                    <img src="public/images/logo/html-5.webp" alt='icone html' width="55" height="55" />
-                    <img src="public/images/logo/css.webp" alt='icone css' width="55" height="55" />
-                    <img src="public/images/logo/js.webp" alt='icone javascript' width="55" height="55" />
-                    <img className="react-logo" src={reactLogo} alt='icone react' width="55" height="55" />
-                    <img src={saasLogo} alt='icone saas' width="55" height="55" />
+                    <img src={htmlLogo} alt='icone html' width="50" height="50" />
+                    <img src={cssLogo} alt='icone css' width="50" height="50" />
+                    <img src={jsLogo} alt='icone javascript' width="50" height="50" />
+                    <img className="react-logo" src={reactLogo} alt='icone react' width="50" height="50" />
+                    <img src={saasLogo} alt='icone saas' width="50" height="50" />
                 </div>
 
             </div>
             <div className='back-end'>
                 <h2>Back-end</h2>
                 <div className="back-img">
-                    <img src="public/images/logo/nodejs.webp" alt='icone nodejs' width="55" height="55" />
-                    <img src="public/images/logo/MongoDB.webp" alt='icone mongodb' width="55" height="55" />
+                    <img src={nodejsLogo} alt='icone nodejs' width="50" height="50" />
+                    <img src={mongodbLogo} alt='icone mongodb' width="50" height="50" />
                 </div>
 
             </div>
